@@ -15,6 +15,7 @@ while True:
       print('Ошибка! Требуется ввести натуральное число!')
 
 equ = F.EquationRandom(size)
+
 # print(equ)
 f = open('text.txt', 'w')
 f.write(equ)

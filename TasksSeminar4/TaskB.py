@@ -15,6 +15,7 @@ equ1 = F.EquationRandom(size)
 f = open('text1.txt', 'w')
 f.write(equ1)
 f.close()
+
 while True:
    try:
       size = int(input('Введите максимальную степень второго многочлена: '))

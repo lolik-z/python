@@ -64,6 +64,7 @@ def EquationRead(fileName):
              j = k + 1
        a = j
     return koef
+
 def Equation(dictionary):
     koef = dictionary
     equation = ''
